@@ -13,7 +13,7 @@ CREATE TABLE Employees (
     First_Name VARCHAR  NOT NULL ,
     Last_Name VARCHAR  NOT NULL ,
     Sex CHAR  NOT NULL ,
-    Hire_Date DATE  NOT NULL ,
+    Hire_Date TIMESTAMP NOT NULL ,
     FOREIGN KEY(Emp_Title) REFERENCES employee_titles (title_id)
 );
 

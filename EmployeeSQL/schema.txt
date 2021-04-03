@@ -12,7 +12,7 @@ Birth_Date DATETIME
 First_Name VARCHAR
 Last_Name VARCHAR
 Sex CHAR
-Hire_Date DATETIME
+Hire_Date TIMESTAMP 
 
 Departments
 -
